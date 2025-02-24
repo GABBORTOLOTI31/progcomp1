@@ -1,0 +1,47 @@
+body{ 
+    /* fonte do texto */
+    font-family:  Arial, sans-serif;
+    background-color: rgba(37, 143, 201, 0.501);
+
+
+    /* usa modelo Flexbox, conceito de caixa para posicionamento */
+    display: flex;
+    justify-content: center; /* centraliza na horizontal*/
+    height: 100vh; /* altura da página 100% do tamanho da página*/
+    align-items: center; /* centraliza na vertical*/
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /*sombra */ 
+    
+}
+button {
+    background-color: rgb(25, 7, 104);
+    color: white;
+    border: none;
+    /* 10 abaixa e a cima e 20 esquerda e 20 direita */
+    padding: 10px 20px;
+    
+
+}
+
+/* ao passar o mouse em cima do botão*/
+button:hover {
+    background-color: rgba(239, 1, 216, 0.942);
+
+}
+
+.foto { 
+    /* borda c/ cantos arrredondados */
+    border-radius: 50%;
+    /* largura */ 
+    width: 100px;
+    /* altura */ 
+    height: 100px;
+    /* espaçamento externo abaixo */
+    margin-bottom: 10px;
+
+}
